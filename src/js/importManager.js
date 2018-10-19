@@ -72,12 +72,13 @@ class ImportManager {
    * @memberof ImportManager
    */
   static escapeMarkdownCharacters(text) {
-    return text.replace(/\(/g, '\\(')
+    return text
+      /*.replace(/\(/g, '\\(')
       .replace(/\)/g, '\\)')
       .replace(/\[/g, '\\[')
       .replace(/\]/g, '\\]')
       .replace(/</g, '\\<')
-      .replace(/>/g, '\\>');
+      .replace(/>/g, '\\>');*/
   }
 
   /**
